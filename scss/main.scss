@@ -5,5 +5,12 @@
 html,
 body {
   margin: 0;
-  height: 100%;
 }
+
+.container {
+  margin: 0 auto;
+  width: 1088px;
+}
+
+@import "./settings/index";
+@import "./elements/navigation";
